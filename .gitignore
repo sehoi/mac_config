@@ -1,0 +1,103 @@
+# git ignore file
+
+# binary files
+*.o
+*.lo
+*.la
+*.al
+.libs
+*.so
+*.so.[0-9]*
+*.a
+*.pyc
+*.pyo
+*.class
+
+# temporary/history files & dirs
+*.swp
+*~.nib
+.cache/
+tmp/
+
+# other scm files/dirs
+.svn
+.cvs
+
+# OSX files/dirs
+.DS_Store
+.Trash/
+.CFUserTextEncoding
+.crash_*
+Applications/
+Desktop/
+Documents/
+Downloads/
+Library/
+Movies/
+Music/
+Pictures/
+Public/
+Sites/
+
+# X11 files/dirs
+.Xauthority
+.fontconfig/
+
+# ruby
+.gem
+.rvm
+.bundle
+.bundler
+
+# java
+.gradle/
+
+# atom editor
+.atom/.apm/
+.atom/packages/
+.atom/storage/
+.atom/compile-cache/
+
+# xcode files
+.cocoapods/
+xcuserdata
+
+# src dirs
+srcs
+public_html/
+
+# private/config files & dirs
+.android/
+.custom_aliases
+.gist-vim
+.gitconfig
+.gnupg
+.gtmx.json
+.ssh/
+
+# history files
+.*history
+.dbshell
+
+# other applications' files & dirs
+.AndroidStudio*/
+.cups/
+.eclipse/
+.Genymobile/
+.heroku/
+.httpie/
+.lesshst
+.lnav/
+.netrc
+.ngrok2/
+.oracle_jre_usage/
+.putty/
+.subversion/
+.vim/
+.viminfo
+.RData
+.rnd
+.w3m/
+.htoprc
+Dropbox/
+Google Drive/
