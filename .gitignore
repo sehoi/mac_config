@@ -70,7 +70,6 @@ public_html/
 .android/
 .custom_aliases
 .gist-vim
-.gitconfig
 .gnupg
 .gtmx.json
 .ssh/
